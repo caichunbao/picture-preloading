@@ -3,7 +3,10 @@
 
 
 ### API文档
+```
 $.preload(imgs,{
   each:function(){},
   all:function(){}
 })
+```
+
