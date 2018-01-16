@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  text-align: center
+}
+
+.btn {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  padding: 0 10px;
+  margin-right: 50px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  font-size: 30px;
+}
+
+.progress {
+  margin-top: 300px;
+}
