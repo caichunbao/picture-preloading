@@ -52,7 +52,7 @@
         opts.each && opts.each(count);
 
         if (count >= len - 1) {
-          $(".loading").hide();
+
           opts.all && opts.all()
         }
 
